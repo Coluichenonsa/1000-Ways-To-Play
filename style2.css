@@ -12,19 +12,22 @@ html {
 
 h1 
 {
-      font-size: 4rem;
-      color: rgb(255, 255, 255);
+      font-size: 5rem;
+      color: #e2dbdb;
+      ;
 }
 
-hr{
-  border-color: rgb(184, 0, 184);
-  border-width: 3px;
-  max-width: 65px;
-  
-}
+hr {
+      border-color: rgb(184, 0, 184);
+      border-width: 3px;
+      max-width: 65px;
+    }
 
+.buffer {
+      height: 10rem;
+}
 .btn {
-    font-weight: 1rem;
+    font-weight: 700;
     border-radius: 300px;
     text-transform: uppercase;
 }
@@ -32,12 +35,13 @@ hr{
 .btn-primary {
     background-color: rgb(184, 0, 184);
     border-color: rgb(184, 0, 184);
+    border-width: 4px;
 }
 
 .btn-primary:hover {
-  background-color: rgb(138, 21, 138);
+  background-color: rgb(107, 0, 107);
   border-color: rgb(138, 21, 138);
-  border-width: 1px;
+  border-width: 3px;
   opacity: 1;
 }
 
@@ -45,3 +49,4 @@ hr{
 
       padding: 1rem 2rem;
 }
+
